@@ -4,6 +4,6 @@ services:
     container_name: enge-dev
     image: retakenroots/mdlr:latest
     volumes:
-      - ./docs:index.html
+      - ./docs
     ports:
       - "8443:443"
